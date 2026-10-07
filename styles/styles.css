@@ -1,0 +1,40 @@
+img{
+    width: 300px;
+}
+
+body{
+    background-color: rgb(160, 195, 130); /*Declaration statement*/
+    text-align: center;
+    margin: 0; /*overide browser default of 8*/
+}
+#content{
+    background-color: beige;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80;
+}
+
+header, footer {
+    background-color: rgba(27, 65, 40, 0.444);
+    padding: 20px;
+}
+nav a { /* Only the a tags inside the nav tag */
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(196, 219, 211);
+}
+
+p {
+    font-size: 1.5em;
+}
+
+#second { /* for ids*/
+    font-size: 3em;
+}
+
+.emphasis { /* for classes */
+    color: white;
+}
