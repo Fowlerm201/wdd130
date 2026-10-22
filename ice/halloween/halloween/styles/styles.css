@@ -1,0 +1,49 @@
+/* Add your CSS here to style your halloween page */
+@import url('https://fonts.googleapis.com/css2?family=Eater&&family=Trade+Winds&display=swap');
+
+ul {
+    color: rgba(255, 247, 0, 0.899);
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: space-around;
+    font-size: 18px;
+    background-color: brown;
+}
+
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+    font-family: "Eater";
+}
+
+img {
+    display: flex;
+    justify-self: center;
+    border: 15px solid rgb(80, 1, 80);
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(240, 113, 34);
+    font-family: "Trade Winds";
+}
+
+p {
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(80, 1, 80);
+    padding-bottom: 20px;
+}
