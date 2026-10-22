@@ -37,9 +37,17 @@ h2 {
 }
 
 p {
-    text-align: center;
     color: white;
     padding-bottom: 20px;
+    /* text-align: center;     */
+}
+
+section {
+    display: block;
+    width: 100%;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 footer {
