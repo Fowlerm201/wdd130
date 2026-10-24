@@ -3,12 +3,12 @@ img{
 }
 
 body{
-    background-color: rgb(160, 195, 130); /*Declaration statement*/
+    background-color: rgb(68, 75, 61); /*Declaration statement*/
     text-align: center;
     margin: 0; /*overide browser default of 8*/
 }
 #content{
-    background-color: beige;
+    background-color: rgb(212, 207, 182);
     max-width: 1200px;
     margin: 0 auto;
     padding: 80;
