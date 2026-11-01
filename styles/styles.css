@@ -48,8 +48,6 @@ body{
     width: 100%;
     width: 1100px;
     margin: 0 auto;
-    
-
 }
 
 .top{
@@ -57,6 +55,11 @@ body{
     align-items: flex-start;
     align-items: center;
     padding-left: 40px;
+    color: #191F1A;
+}
+
+h1{
+    font-family: "Original Surfer";
 }
 
 .main_img{
@@ -67,6 +70,13 @@ body{
 h2{
     text-align: center;
     margin-bottom: 0px;
+    color: #191F1A;
+    font-family: "Original Surfer";
+}
+
+h3{
+    font-family: "Titillium Web", "Finlandica Headline";
+    color: #5A5743;
 }
 
 .content-img{
@@ -77,6 +87,10 @@ h2{
     border: 10px solid #85AD86;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
+}
+
+.content-img:hover{
+    transform: scale(1.1);
 }
 
 #projects{
@@ -94,8 +108,10 @@ header, footer {
     padding: 20px;
     align-items: center;
     font-family: "Titillium Web";
+    color: #99AD9C;
 }
 
 p {
     font-size: 1.5em;
+    font-family: "Titillium Web", "Finlandica Headline";
 }
