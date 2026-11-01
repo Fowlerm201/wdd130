@@ -26,7 +26,7 @@ nav {
 
 nav a{
     text-align: center;
-    color: #7A93AC; 
+    color: #85AD86; 
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
@@ -35,7 +35,7 @@ nav a{
 }
 
 nav a:hover {
-    color: #B7E1E2;
+    color: #99AD9C;
 }
 
 body{
@@ -45,7 +45,8 @@ body{
 
 #content{
     background: #DAE4D0;
-    max-width: 1100px;
+    width: 100%;
+    width: 1100px;
     margin: 0 auto;
     
 
