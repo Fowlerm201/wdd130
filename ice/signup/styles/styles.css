@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: rgb(120, 96, 64);
+}
+
+#formContainer {
+    background: white;
+    border: 8px solid rgb(18, 26, 173);
+    border-radius: 20px;
+    width: 500px;
+    height: 720px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#feeding {
+    width: 100%;
+    max-width: 500px;
+    max-height: 210px;
+    object-fit: cover;
+    object-position: top;
+}
+
+#hero{
+    position: relative;
+}
+
+#hero button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 0.8rem;
+}
+
+#hero h1, #hero h2 {
+    position: absolute;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px #000000;
+
+}
+
+#hero h1 {
+    top: 95px;
+    left: 180px;
+}
+
+#hero h2 {
+    top: 140px;
+    left: 170px;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+form {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+#formContainer h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.letter, .terms, .button {
+    grid-column: 1 / span 2;
+    text-align: center;   
+}
+
+.pages {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2px;
+    max-width: 500px;
+    width: 100%;
+}
+
+#BoM, #DaC, #NT, #OT, #POGP {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}

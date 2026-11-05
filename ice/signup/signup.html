@@ -5,27 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Feed Sign Up</title>
-
-    <style>
-        * {
-            margin: 0;
-        }
-
-        body {
-            background: rgb(120, 96, 64);
-        }
-    </style>
-
-
-
-
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
     <div id="formContainer">
+        <div id="hero">
+            <button type="button" id="closeBtn">X</button>
+            <h1>Daily Feed</h1>
+            <h2>Scripture a Day</h2>
+            <img id="feeding" src="images/jesus_feeds_5000.jpeg" alt="Jesus feeds the 5000">
+        </div>
         <h3>Sign Up for Daily Scripture Feed</h3>
         <form id="myForm">
-            <button type="button" id="closeBtn">X</button>
             <label for="username">User Name:</label>
             <input type="text" id="username" name="username" required>
 
@@ -43,20 +35,27 @@
                 <label for="female">Female</label>
             </div>
 
-            <section>
+            <section class="letter">
                 <input type="checkbox" id="newsletter" name="newsletter">
                 <label for="newsletter">Subscribe to newsletter</label>
             </section>
 
-            <section>
+            <section class="terms">
                 <input type="checkbox" id="conditions" name="conditions" required>
                 <label for="conditions">I acknowledge the terms and conditions</label>
             </section>
 
-            <section>
+            <section class="button">
                 <button type="submit">Submit</button>
             </section>
         </form>
+        <section class="pages">
+            <img id="OT" src="images/old_testament.webp" alt="Old Testament">
+            <img id="NT" src="images/new_testament.webp" alt="New Testament">
+            <img id="BoM" src="images/book_of_mormon.webp" alt="Book of Mormon">
+            <img id="DaC" src="images/doctrine_and_covenants.webp" alt="Doctrine and Covenants">
+            <img id="POGP" src="images/pearl_of_great_price.webp" alt="Pearl of Great Price">
+        </section>
     </div>
 
     <div id="output"></div>
