@@ -44,7 +44,7 @@ body{
 }
 
 #content{
-    background: #DAE4D0;
+    background: #e2e4d0;
     width: 100%;
     width: 1100px;
     margin: 0 auto;
@@ -102,7 +102,6 @@ h3{
 }
 
 
-
 header, footer {
     background-color: #416242;
     padding: 20px;
@@ -114,4 +113,49 @@ header, footer {
 p {
     font-size: 1.5em;
     font-family: "Titillium Web", "Finlandica Headline";
+}
+
+/* Ice css */
+/*  color: Dark Green #324932
+    color: Mid Green #416242
+    color: light Green #85AD86
+    color: blight blue #B7E1E2 #7A93AC
+    color: Beige #DAE4D0 #e2e4d0
+    color: Brown #5A5743
+    color: black #191F1A
+*/
+
+#ice-projects {
+    padding-top: 40px;
+    padding-left: 180px;
+    padding-right: 180px;
+    text-align: center;
+}
+
+.name {
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+.prophet, .favdevo, .holiday, .positioning, .flags, .gallery, .signup{
+    background: #ada88a;
+    margin-bottom: 40px;
+}
+
+.link {
+    background: #7A93AC;
+    color: #3a2f13;
+    text-decoration: none;
+    box-shadow: 2px 2px 10px #6f7364;
+    font-size: 15px;
+    font-family: "Rock Salt", "Finlandica Headline";
+    padding: 20px;
+}
+
+.link:hover {
+    color: #DAE4D0;
+}
+
+.prophet p, .favdevo p, .holiday p, .positioning p, .flags p, .gallery p, .signup p {
+    padding: 10px;
 }
